@@ -63,7 +63,7 @@ body {
 .header {    
     z-index:99; /* ewwwww */
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: row;
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@ body {
     
     padding-left: 1rem;
 
-    box-sizing: border-box; /* Add this line */
+    box-sizing: border-box;
 }
 
 a {

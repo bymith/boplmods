@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 37, 37);
+}
+
+/* custom def for more configurability */
+.headerOne {
+    
+}
+
+/* custom def for more configurability */
+.headerTwo {
+    
+}
+
+/* custom def for more configurability */
+.headerThree {
+    
+}
+
+/* custom def for more configurability */
+.headerFour {
+    
+}
+
+/* custom def for more configurability */
+.paragraphThing {
+
+}
+
+/* custom def for more configurability */
+/* TODO: figure out how to style links */
+.linkThingy {
+
+}
+
+.floatingDivThing {
+    border-radius: 1.5rem;
+    background-color: rgb(27, 27, 27);
+    max-width: 90%;
+    width: 90%;
+    position: absolute;
+    
+    top: 4rem;
+    left: 5%; /* center it (offset so its centered, margin:auto; gets weird) */
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box; /* so it stays the same size with padding :333 */
+
+
+    color: #c0c0c0;
+}
+
+
+.header {    
+    z-index:99; /* ewwwww */
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2929299c;
+    color: #fff;
+    
+    padding-left: 1rem;
+
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.clickableHeaderThing {
+    transition: all .2s ease-out;
+    height: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.clickableHeaderThing:hover {
+    color: #e1e1e1;
+    scale: 130%;
+}
